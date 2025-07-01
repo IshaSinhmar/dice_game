@@ -1,0 +1,70 @@
+body{
+    background-color: #cfbfac;
+    text-align: center;
+}
+h1{
+ color: #2b3b07;
+ font-family: Shizuru;
+ font-size: 4rem;
+ margin-bottom: 90px;
+ display:inline;
+ margin-right:40px;
+}
+.p{
+    font-size: 1.5rem;
+    margin:50px;
+}
+p{
+    display:inline;
+    padding-right:12%;
+    padding-left: 25%;
+}
+.top button{
+       height: 50px;
+    width: 150px;
+    border-radius: 4%;
+    font-family:Shizuru ;
+    font-size: 1.5rem;
+    color:#2b3b07;
+    font-weight: bold;
+    background-color: #d0d5da;
+    
+}
+
+.dice{
+    background-color:#B31B1B;
+    display:flex;
+    height:230px;
+    width:230px;
+    border-radius: 10%;
+     justify-content: center; 
+    align-items: center; 
+     margin:auto;
+}
+.game{
+    display:flex;
+    gap:10px;
+}
+.circles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ .circles * {
+    background-color:#EDEAE0;
+    height:65px;
+    width:65px;
+    border-radius: 50%;
+    margin:6px;
+}
+.reset{
+    margin-top:40px;
+    height:50px;
+    width:150px;
+    border-radius: 5%;
+    font-size: medium;
+}
+footer p{
+    margin-top:50px;
+    font-size: 20px;
+}
